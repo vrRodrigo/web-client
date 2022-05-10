@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        input, label, button {
+            width: 60%;
+        }
+        gap: 0.25rem;
+    } 
+
+    button {
+        margin: .25rem .125rem;
+        background-color: #198754;
+        color: #fff;
+        border-color: #198754;
+        width: 50%;
+        cursor: pointer;
+    }
+}
